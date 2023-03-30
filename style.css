@@ -1,0 +1,62 @@
+
+#nav-div {
+    text-align: right;
+    font-size: 26px;
+    font-family: gantari;
+    padding: 30px;
+    }
+
+#main-div {
+        align-content: center;
+        padding: 200px;
+    }
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: azure;
+    text-align: center;
+    
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 45px;
+    font-family: inconsolata;
+    
+}
+
+p {
+    font-family: inconsolata;
+    font-size: 27px;
+    text-align: center;
+}
+
+input, button {
+    border-radius: 8px;
+    padding: 7px;
+}
+
+.contact-link:hover {
+    background-color: #ffb499;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.about-link:hover {
+    background-color: #ffb499;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.work-link:hover {
+    background-color: #ffb499;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
