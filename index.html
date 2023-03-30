@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <main>
     <div id="nav-div">
         <nav>
         <a href="" class="about-link">About</a> <!--insert link-->
@@ -20,10 +21,13 @@
     <h1>Hi! I am Gustavo, an aspiring UX Designer and Web Developer.</h1>
     <p>I work with Figma <i class="fa-brands fa-figma fa-bounce" style="color: #af41be;"></i>, HTML <i class="fa-brands fa-html5 fa-bounce" style="color: #ff3b0a;"></i>, CSS <i class="fa-brands fa-css3-alt fa-bounce" style="color: #3496fe;"></i>, and JavaScript <i class="fa-brands fa-js fa-bounce" style="color: #61878f;"></i>.</p>
     <p>This website will be updated constantly, as I learn new tricks for my new trade!</p>
-    <form>
-        <input type="email">
+    <form id="contactForm">
+        <input type="email" id="emailInput" placeholder="Hello there!">
         <button type="submit">Say Hi!</button>
     </form>
+    <p id="thankyouMessage">Thank you, I will be in touch soon!</p>
     </div>
+</main>
+<script src="submit.js"></script>
 </body>
 </html>
